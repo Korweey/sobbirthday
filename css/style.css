@@ -1,0 +1,88 @@
+body{
+	width: 100%;
+	background-color: #85898A;
+	font-family: "Papyrus", "fantasy";
+}
+h1, h4{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	color: #9AF4D2;
+	text-align: center;
+}
+h2{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color:#BEDAE1;
+}
+section p{
+	color:#fff;
+	font-style: 1px solid;
+}
+hr{
+	width: 25%;
+	text-align:center;
+	height: 5px;
+	color: #394787;
+}
+img{
+	width:200px;
+	height: 400px;
+	display: inline;
+	margin-top:10px;
+}
+.sideone{
+	width: 30%;
+	float: left;
+	text-align: justify;
+	border: 5px solid;
+	margin: 5px;
+	padding: 3px;
+	background-color: #87395C;
+	border-color: #398785;
+}
+.sidetwo{
+	width: 32.5%;
+	float: none;
+	display: inline-block;
+	margin-left: 20px;
+	text-align: justify;
+	background-color: #0B8CAF;
+	margin-top: 5px;
+	padding: 3px;
+	border: 5px solid;
+	border-color: #90AAEA;
+}
+.sidethree{
+	width: 30%;
+	float: right;
+	text-align: justify;
+	border: 5px solid;
+	margin: 5px;
+	padding: 3px;
+	background-color: #873962;
+	border-color: #868739;
+	margin-top: -464.2%;
+}
+img{
+	width: 200px;
+	height: 300px;
+	border-color: gold;
+}
+@media screen and (min-width: 400px){
+	img{
+		display: block;
+	}
+}
+@media screen and (min-width: 600px){
+	img{
+		display: block;
+	}
+}
+@media screen and (min-width: 1000px){
+	img{
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 1400px){
+	img{
+		display: inline;
+	}
+}
