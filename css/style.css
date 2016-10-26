@@ -78,11 +78,11 @@ img{
 }
 @media screen and (max-width: 1000px){
 	img{
-		display: inline-block;
+		;
 	}
 }
 @media screen and (max-width: 1400px){
 	img{
-		display: inline;
+		;
 	}
 }
