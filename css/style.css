@@ -28,6 +28,9 @@ img{
 	display: inline;
 	margin-top:10px;
 }
+.container{
+	width:100%;
+}
 .sideone{
 	width: 30%;
 	float: left;
@@ -61,6 +64,10 @@ img{
 	border-color: #868739;
 	margin-top: -464.2%;
 }
+.container div{
+	display: inline-block;
+	padding:5px;
+}
 img{
 	width: 200px;
 	height: 300px;
@@ -71,7 +78,7 @@ img{
 		display: block;
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 	img{
 		display: block;
 	}
