@@ -2,6 +2,7 @@ body{
 	width: 100%;
 	background-color: #85898A;
 	font-family: "Papyrus", "fantasy";
+	font-style: bold;
 }
 h1, h4{
 	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
@@ -28,8 +29,15 @@ img{
 	display: inline;
 	margin-top:10px;
 }
+.img1{
+	width: 190px;
+	height: 400px;
+	margin: 3px 2px;
+	clear: both;
+}
 .container{
 	width:100%;
+	display: inline-block;
 }
 .sideone{
 	width: 30%;
@@ -52,6 +60,7 @@ img{
 	padding: 3px;
 	border: 5px solid;
 	border-color: #90AAEA;
+	float: right;
 }
 .sidethree{
 	width: 30%;
@@ -62,7 +71,7 @@ img{
 	padding: 3px;
 	background-color: #873962;
 	border-color: #868739;
-	margin-top: -464.2%;
+	margin-top:;
 }
 .container div{
 	display: inline-block;
@@ -73,14 +82,20 @@ img{
 	height: 300px;
 	border-color: gold;
 }
+
+
+
+
 @media screen and (max-width: 500px){
 	img{
 		display: block;
+		color: black;
 	}
 }
 @media screen and (max-width: 700px){
 	img{
 		display: block;
+		color: black;
 	}
 }
 @media screen and (max-width: 1000px){
