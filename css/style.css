@@ -3,6 +3,7 @@ body{
 	background-color: #85898A;
 	font-family: "Papyrus", "fantasy";
 	font-style: bold;
+	height: 500px;
 }
 h1, h4{
 	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
@@ -24,86 +25,90 @@ hr{
 	color: #394787;
 }
 img{
-	width:200px;
-	height: 400px;
-	display: inline;
+	width:190px;
+	height: 300px;
+	display: inline-block;
 	margin-top:10px;
+	text-align: center;
 }
-.img1{
-	width: 190px;
-	height: 400px;
+/*.img1{
+	width: 170px;
+	height: 300px;
 	margin: 3px 2px;
-	clear: both;
+	clear: both;*/
 }
 .container{
 	width:100%;
 	display: inline-block;
+	height: 400px;
 }
 .sideone{
-	width: 30%;
+	width: 31%;
 	float: left;
 	text-align: justify;
 	border: 5px solid;
 	margin: 5px;
 	padding: 3px;
-	background-color: #87395C;
+	background-color: #D8ECE4;
 	border-color: #398785;
+	display: inline-block;
 }
 .sidetwo{
-	width: 32.5%;
-	float: none;
+	width: 31%;
+	float: left;
 	display: inline-block;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 	text-align: justify;
-	background-color: #873962;
-	margin-top: 5px;
+	background-color: #D8ECE4;
+	margin: 5px;
 	padding: 3px;
 	border: 5px solid;
 	border-color: #868739;
-	float: right;
+	/*clear: both;*/
 }
 .sidethree{
-	width: 30%;
-	float: right;
+	width: 31%;
+	float: left;
 	text-align: justify;
 	border: 5px solid;
 	margin: 5px;
 	padding: 3px;
-	background-color: #0B8CAF;
+	background-color: #D8ECE4;
 	border-color: #90AAEA;
-}
-.container div{
+	/*clear: both;*/
 	display: inline-block;
-	padding:5px;
 }
-img{
+/*.container div{
+	display: block;
+	padding:5px;
+}*/
+/*img{
 	width: 200px;
 	height: 300px;
 	border-color: gold;
-}
+}*/
 
 
 
 
-/* ---------------- media wuery --------------------*/
+/* ---------------- media query --------------------*/
 
 
 
 @media screen and (max-width: 500px){
-	img{
+	.container div{
 		display: block;
-		color: black;
-	}
+		padding:5px;
 }
 @media screen and (max-width: 700px){
-	img{
-		display: block;
-		color: black;
-	}
+	.container div{
+		display: inline-block;
+		padding:5px;
 }
 @media screen and (max-width: 1000px){
 	img{
-		;
+			display: block;
+		color: black;;
 	}
 }
 @media screen and (max-width: 1400px){
